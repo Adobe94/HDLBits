@@ -16,3 +16,18 @@ always @(*) begin
 	endcase
 end
 endmodule
+/*
+always @(*) begin
+	casez(1)
+		in[0]: pos = 'd0;
+		in[1]: pos = 'd1;
+		in[2]: pos = 'd2;
+		in[3]: pos = 'd3;
+		in[4]: pos = 'd4;
+		in[5]: pos = 'd5;
+		in[6]: pos = 'd6;
+		in[7]: pos = 'd7;
+		default: pos = 'd0;
+	endcase
+end
+*/
