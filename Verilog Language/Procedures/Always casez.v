@@ -26,7 +26,7 @@ always @(*) begin
 		in[4]: pos = 'd4;
 		in[5]: pos = 'd5;
 		in[6]: pos = 'd6;
-		in[7]: pos = 'd7;
+		in[7]: pos = 'd7; // 优先级由分支顺序决定
 		default: pos = 'd0;
 	endcase
 end
